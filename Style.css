@@ -1,0 +1,52 @@
+*{
+    color: black;
+}
+.bg img{
+    height: 110vh;
+    width: 100%;
+   position: absolute;
+    z-index: -1;
+}
+.bg{
+    position: relative;
+}
+.heading{
+    border: solid 2px red;
+    margin-right: 47%;
+    margin-top: 5%;
+    margin-left: 6%;
+    position: absolute;
+    text-align: center;
+}
+.heading h1{
+    font-size: 50px;
+    /* color: white; */
+}
+.heading p{
+    font-size: 23px;
+    color: yellow;
+}
+.nav{
+    position: absolute;
+    border: solid 2px red;
+    /* background-color: brown; */
+}
+.nav ul{
+    /* list-style-type: none; */
+        margin-left: 10%;
+}
+.nav ul li{
+    /* margin-left: 10%; */
+display: inline;
+padding:60px;
+}
+.nav ul li a{
+    text-decoration: none;
+    font-size: 25px;
+    color: red;
+    /* transition: all; */
+}
+.nav ul li a:hover{
+    /* transition-duration:10s; */
+    font-size: 40px;
+}
